@@ -1,0 +1,11 @@
+spring:
+  main:
+    banner_mode: 'OFF'
+  profiles:
+    active: test
+weather-client:
+  url: "https://localhost:8080?lat={lat}&lon={lon}&appid={apiKey}&units=metric"
+  apiKey: "apiKey"
+caching:
+  spring:
+    forecastListTTL: 100000

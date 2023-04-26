@@ -1,0 +1,7 @@
+version: '3'
+services:
+  weather:
+    container_name: weather-app
+    image: localhost:8080/weather:v1
+    ports:
+      - 8080:8080

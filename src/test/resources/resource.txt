@@ -1,0 +1,28 @@
+</br>
+<table id='result' style=${dailyWeatherForecast != null ? '' : 'visibility:hidden'}>
+<tr>
+    <td>Date: </td>
+    <td>%DATE%</td>
+</tr>
+<tr>
+    <td>Weather:</td>
+    <td>%MAIN%</td>
+    <td><img src='http://openweathermap.org/img/wn/%ICON%@2x.png' width='100' height='100'></td>
+</tr>
+<tr>
+    <td>Temperature:</td>
+    <td>%TEMP%&#x2103;</td>
+</tr>
+<tr>
+    <td>Feels like:</td>
+    <td>%FEELS%&#x2103;</td>
+</tr>
+<tr>
+    <td>Min temperature:</td>
+    <td>%MIN%&#x2103;</td>
+</tr>
+<tr>
+    <td>Max temperature:</td>
+    <td>%MAX%&#x2103;</td>
+</tr>
+</table>

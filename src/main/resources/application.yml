@@ -1,0 +1,11 @@
+spring:
+  main:
+    banner_mode: 'OFF'
+  profiles:
+    active: production
+weather-client:
+  url: "https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={apiKey}&units=metric"
+  apiKey: "6675168a78c1f1daa6e750fe90f69a01"
+caching:
+  spring:
+    forecastListTTL: 100000
